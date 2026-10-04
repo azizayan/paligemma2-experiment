@@ -3,6 +3,10 @@
 This repository contains the controlled experiment and final figures used in a
 blog post about [PaliGemma 2](https://arxiv.org/abs/2412.03555).
 
+This is a public, read-only research archive. External issues, pull requests,
+code contributions, and content submissions are not accepted. See
+[`CONTRIBUTING.md`](CONTRIBUTING.md).
+
 The experiment asks whether the 448-pixel PaliGemma 2 checkpoint answers
 questions about small details in Renaissance paintings more accurately because
 it receives more visual detail, or because the checkpoint and its training differ
