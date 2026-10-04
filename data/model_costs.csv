@@ -1,0 +1,10 @@
+model_size,resolution,parameters_b,visual_tokens,relative_training_cost_per_example,approximate,cost_baseline,source
+3B,224,3.0,256,1.0,false,PaliGemma 2 3B 224x224 = 1.0,https://arxiv.org/html/2412.03555#S3
+3B,448,3.0,1024,4.6,false,PaliGemma 2 3B 224x224 = 1.0,https://arxiv.org/html/2412.03555#S3
+3B,896,3.0,4096,23.5,true,PaliGemma 2 3B 224x224 = 1.0,https://arxiv.org/html/2412.03555#S3
+10B,224,9.7,256,3.7,false,PaliGemma 2 3B 224x224 = 1.0,https://arxiv.org/html/2412.03555#S3
+10B,448,9.7,1024,18.3,false,PaliGemma 2 3B 224x224 = 1.0,https://arxiv.org/html/2412.03555#S3
+10B,896,9.7,4096,67.7,true,PaliGemma 2 3B 224x224 = 1.0,https://arxiv.org/html/2412.03555#S3
+28B,224,27.7,256,18.9,false,PaliGemma 2 3B 224x224 = 1.0,https://arxiv.org/html/2412.03555#S3
+28B,448,27.7,1024,63.5,false,PaliGemma 2 3B 224x224 = 1.0,https://arxiv.org/html/2412.03555#S3
+28B,896,27.7,4096,155.6,true,PaliGemma 2 3B 224x224 = 1.0,https://arxiv.org/html/2412.03555#S3

@@ -1,0 +1,10 @@
+metric,condition_a,condition_b,n,condition_a_mean,condition_b_mean,delta_a_minus_b,a_better,tie,b_better
+score_0_to_2,448_native,448_degraded,60,0.983,0.933,0.05,5,50,5
+score_0_to_2,448_native,224_native,60,0.983,0.717,0.267,13,43,4
+score_0_to_2,448_degraded,224_native,60,0.933,0.717,0.217,11,48,1
+hallucination_0_or_1,448_native,448_degraded,60,0.433,0.467,-0.033,6,50,4
+hallucination_0_or_1,448_native,224_native,60,0.433,0.583,-0.15,11,47,2
+hallucination_0_or_1,448_degraded,224_native,60,0.467,0.583,-0.117,10,47,3
+rejects_false_premise_0_or_1,448_native,448_degraded,12,0.417,0.417,0.0,1,10,1
+rejects_false_premise_0_or_1,448_native,224_native,12,0.417,0.083,0.333,4,8,0
+rejects_false_premise_0_or_1,448_degraded,224_native,12,0.417,0.083,0.333,4,8,0

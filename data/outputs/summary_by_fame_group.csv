@@ -1,0 +1,12 @@
+,,score_0_to_2,score_0_to_2,hallucination_0_or_1,hallucination_0_or_1,rejects_false_premise_0_or_1,rejects_false_premise_0_or_1
+,,mean,count,mean,count,mean,count
+condition,fame_group,,,,,,
+224_native,famous,0.75,20,0.6,20,0.0,4
+224_native,moderate,0.8,20,0.6,20,0.25,4
+224_native,obscure,0.6,20,0.55,20,0.0,4
+448_degraded,famous,0.9,20,0.5,20,0.0,4
+448_degraded,moderate,1.05,20,0.45,20,0.75,4
+448_degraded,obscure,0.85,20,0.45,20,0.5,4
+448_native,famous,0.75,20,0.55,20,0.0,4
+448_native,moderate,1.05,20,0.5,20,0.5,4
+448_native,obscure,1.15,20,0.25,20,0.75,4

@@ -1,0 +1,27 @@
+.DS_Store
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Large or generated artifacts
+data/images/*
+!data/images/.gitkeep
+data/outputs/*
+!data/outputs/zero_shot.jsonl
+!data/outputs/blind_key.csv
+!data/outputs/blind_scores.csv
+!data/outputs/summary.csv
+!data/outputs/summary_overall.csv
+!data/outputs/summary_by_fame_group.csv
+!data/outputs/summary_pairwise.csv
+
+# Secrets
+.env
+.env.*
+*.token
+
+# Local tooling
+node_modules/
+.playwright-cli/
+*.egg-info/
