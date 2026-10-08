@@ -33,6 +33,10 @@ result.
 The complete design, breakdowns, interpretation, and limitations are in
 [`reports/full_results.md`](reports/full_results.md).
 
+A follow-up calibration with ten synthetic small-text cards is reported in
+[`reports/small_text_check.md`](reports/small_text_check.md). It verifies that the
+degradation control can remove information used by the native 448 model.
+
 ## Conditions
 
 | Condition | Checkpoint | Image supplied |
@@ -53,7 +57,7 @@ data/
   paintings.csv               12-painting manifest and source links
   questions.jsonl             60 detail and false-premise questions
   model_costs.csv              compute figures transcribed from the paper
-  outputs/                     raw answers, blind grades, and summaries
+  outputs/                     raw answers, blind grades, calibrations, and summaries
 reports/
   full_results.md              complete experiment report
   figures/                     four figures used in the blog
@@ -61,6 +65,7 @@ scripts/
   run_zero_shot.py             deterministic three-condition inference
   anonymize_outputs.py         randomized blind-grading sheet generator
   summarize_scores.py         aggregate and paired results
+  run_small_text_check.py      synthetic small-text manipulation check
   validate_dataset.py         experiment-design checks
 src/paligemma2_experiment/     data and image utilities
 tests/                         fast unit tests
@@ -127,6 +132,8 @@ python scripts/anonymize_outputs.py \
   experiment.
 - `menu_3b_vs_10b_comparison.png`: a reader-facing annotation of outputs already
   published by Hugging Face. It is not an additional run from this repository.
+- `small_text_manipulation_check.png`: a representative calibration card and
+  the aggregate results from the ten-card small-text check.
 
 Sources and reuse notes are collected in
 [`THIRD_PARTY_SOURCES.md`](THIRD_PARTY_SOURCES.md).

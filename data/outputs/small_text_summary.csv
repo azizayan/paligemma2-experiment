@@ -1,0 +1,4 @@
+condition,cases,mean_cer,median_cer,exact_matches,mean_latency_seconds,median_latency_seconds
+224_native,10,0.0586,0.0336,1,1.0719,1.0263
+448_degraded,10,0.1738,0.0,6,1.6645,1.762
+448_native,10,0.0048,0.0,7,1.8252,1.8212

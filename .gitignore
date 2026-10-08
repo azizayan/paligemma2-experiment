@@ -15,6 +15,9 @@ data/outputs/*
 !data/outputs/summary_overall.csv
 !data/outputs/summary_by_fame_group.csv
 !data/outputs/summary_pairwise.csv
+!data/outputs/small_text_check_read_text.jsonl
+!data/outputs/small_text_check_verbose_prompt.jsonl
+!data/outputs/small_text_summary.csv
 
 # Secrets
 .env
