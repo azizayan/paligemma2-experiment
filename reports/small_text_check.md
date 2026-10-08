@@ -36,7 +36,7 @@ difference when the task genuinely depends on small text.
 | 448 degraded | 0.1738 | 0.0000 | 6/10 | 1.762 s |
 | 448 native | **0.0048** | **0.0000** | **7/10** | 1.821 s |
 
-![Representative small-text comparison](figures/small_text_manipulation_check.png)
+![Character error rate for all ten labels in each condition](figures/small_text_manipulation_check.png)
 
 In the paired native-448 versus degraded-448 comparison, native 448 had lower
 CER on four cards, degraded 448 had lower CER on one, and five tied. The degraded
